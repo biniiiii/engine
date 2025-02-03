@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car & Engine Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            background-image: url(cccc.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+            overflow-x: hidden;
+ 
+        }
+h1{
+    text-decoration: underline white;
+}
+        .navbar {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+        }
+
+        .navbar a:hover {
+            background-color: #575757;
+        }
+
+        .content {
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .first {
+            color: white;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            max-width: 70vw;
+            margin: auto;
+            margin-top: 2vh;
+            font-size: larger;
+            padding: 34px;
+        }
+
+        .first img {
+            height: 248px;
+            width: 461px;
+            border: 1px;
+            border-radius: 25px;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        .sell-button {
+            display: block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color:  #a73128;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .rr{
+            display: block;
+    margin-top: 10px;
+    padding: 18px 177px;
+    background-color: #a73128;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+        }
+
+        .sell-button:hover {
+            background-color: #218838;
+        }
+        @media screen and (max-width: 900px) {
+            .first{
+               flex-wrap: wrap;   
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Contact">Contact</a>
+        <a href="#Info">Info</a>
+        <a href="#More">More</a>
+    </div>
+    <div class="content">
+        <h1>Welcome to Car & Engine Shop</h1>
+        <p>We offer services for selling old cars, buying generators, water pumps, and customizing engines.</p>
+    </div>
+    <section class="first">
+        <div>
+            <h1>SELL OLD CARS</h1>
+            <p>Turn your unused car into instant cash—running or not! Get a fair price, hassle-free process, and free
+                pickup options. Contact us today</p>
+            <button class="sell-button">Sell Your Car</button>
+        </div>
+        <div> <img src="old.jpg" alt="Old Car"></div>
+    </section>
+    <section class=" first">
+        <div>
+            <h1>Buy generator</h1>
+            <p>Buy Reliable Generators! ⚡ Stay powered with top-quality generators. Fast delivery & great prices. Get
+                yours today!</p>
+            <button class="sell-button">Buy generator</button>
+        </div>
+        <div> <img src="generator.jpg" alt="Old Car"></div>
+    </section>
+    <section class=" first">
+        <div>
+            <h1>Water pump</h1>
+            <p>Buy a Reliable Water Pump! 💧 Efficient, durable, and ready for any job. Get yours today!</p>
+            <button class="sell-button">Water pump</button>
+        </div>
+        <div> <img src="pump.jpg" alt="Old Car"></div>
+    </section>
+    <section class=" first">
+        <div>
+            <h1>Customize your own generator</h1>
+            <button class=" rr">Customize</button>
+        </div>
+     
+    </section>
+</body>
+
+</html>
