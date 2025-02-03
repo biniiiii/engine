@@ -1,0 +1,91 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url(cccc.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+
+}
+
+.navbar {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.first {
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    margin-top: 2vh;
+    font-size: larger;
+    padding: 34px;
+}
+
+.first img {
+    height: 248px;
+    width: 461px;
+    border: 1px;
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.sell-button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color:  #a73128;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.rr{
+    display: block;
+margin-top: 10px;
+padding: 18px 177px;
+background-color: #a73128;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+}
+
+.sell-button:hover {
+    background-color: #218838;
+}
+@media screen and (max-width: 900px) {
+    .first{
+       flex-wrap: wrap;   
+    }
+}
